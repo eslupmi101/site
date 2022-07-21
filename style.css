@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #sulka
+  {
+      float: both;
+      font-size: 300%;
+        text-align: center;
+        margin-top: 100px;
+  } 
+  a:link, a:visited
+  {
+    text-decoration: none;
+    background-image: linear-gradient(#EE5E4F 50%, #EE5E4F 50%), linear-gradient(silver 50%, silver 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 .063em, 100% .063em;
+    color: white;
+    padding-bottom: .188em;
+    transition: background-size .5s;
+  }
+
+  a:hover, a:active
+{
+   background-size: 100% .063em, 100% .063em;
+   background-position: left bottom;
+}
+
+body{
+    background-color: #F5F5DC; /* Цвет фона веб-страницы */
+} 
+
+.fig {
+    text-align: center; /* Выравнивание по центру */ 
+}
