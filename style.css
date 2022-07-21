@@ -1,24 +1,25 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 100;
     padding: 0;
   }
-  
-  #sulka
+
+#sulka
   {
-      float: both;
-      font-size: 300%;
-        text-align: center;
-        margin-top: 100px;
+    float: both;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 70px;
   } 
-  a:link, a:visited
+
+a:link, a:visited
   {
     text-decoration: none;
     background-image: linear-gradient(#EE5E4F 50%, #EE5E4F 50%), linear-gradient(silver 50%, silver 50%);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 0 .063em, 100% .063em;
-    color: white;
+    color: rgb(101, 56, 172);
     padding-bottom: .188em;
     transition: background-size .5s;
   }
